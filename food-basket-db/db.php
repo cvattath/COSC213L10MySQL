@@ -3,7 +3,7 @@ const DB_HOST = '127.0.0.1';
 const DB_PORT = 3306;
 const DB_NAME = 'food_basket_db';
 const DB_USER = 'root';
-const DB_PASS = ''; // XAMPP default is empty for user 'root'
+const DB_PASS = 'vkc@720486'; // XAMPP default is empty for user 'root'
 
 function get_pdo(): PDO {
     $dsn = 'mysql:host=' . DB_HOST . ';port=' . DB_PORT . ';dbname=' . DB_NAME . ';charset=utf8mb4';
